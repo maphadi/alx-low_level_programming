@@ -1,4 +1,10 @@
-#include <stdio>
+#include <stdio.h>
+
+/**
+ * main - small letters
+ *
+ * Return: Always 0 (Success)
+ */
 
 
 int main(void) 
