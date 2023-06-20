@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Determines if a number is positive, negative or zero.
+ * main - putchar zero to ten
  *
  * Return: Always 0 (Success)
  */
@@ -9,12 +9,11 @@
 
 int main (void)
 {
-	unsigned char n;
-	n=0;
-	while (n<10)
+	unsigned char i;
+	for (i=0; i<10; i++)
 	{
-	putchar("%u", n);
-	n++;
+	putchar("%d", i);
+	putchar("\n")
 	}
 	return(0);
 }
