@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - Determines if a number is positive, negative or zero.
+ * main - while loop
  *
  * Return: Always 0 (Success)
  */
 
-int main()
+int main(void)
 {
 	int n;
 	n = 0;
@@ -15,5 +15,7 @@ int main()
 	printf("%d\n", n);
 	n++;
 	}
+
+	return(0)
 }
 
