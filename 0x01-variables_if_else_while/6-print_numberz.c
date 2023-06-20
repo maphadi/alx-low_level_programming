@@ -9,7 +9,7 @@
 
 int main (void)
 {
-	int n;
+	unsigned char n;
 	n=0;
 	while (n<10)
 	{
