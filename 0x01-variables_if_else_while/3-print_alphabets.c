@@ -12,11 +12,11 @@ int main(void)
 	int i; 
 	for (i=0; i<26; i++)
 	{
-	putchar(s2[52]);
+	putchar(s2[i]);
 	}
 	for (i=26; i>26 && i<56; i++)
 	{
-	putchar(s2[52]);
+	putchar(s2[i]);
 	}
 			
 			
