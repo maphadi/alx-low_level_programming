@@ -3,6 +3,7 @@
 /**
  * main - a-z A-Z
  *
+ * Return: Always 0 (Success)
 */
 
 
@@ -14,7 +15,7 @@ int main(void)
 	{
 	putchar(s2[i]);
 	}
-			
+	putchar('\n')			
 	return(0);		
 }
 
