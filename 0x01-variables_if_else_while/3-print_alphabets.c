@@ -14,15 +14,7 @@ int main(void)
 	{
 	putchar(s2[i]);
 	}
-	for (i=26; i>26 && i<56; i++)
-	{
-	putchar(s2[i]);
-	}
-			
-			
-			
-			
-			
 			
 	return(0);		
 }
+
