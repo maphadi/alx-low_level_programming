@@ -15,7 +15,7 @@ int main(void)
 	{
 	putchar(s1[26]);
 	}
-
+	putchar('\n');
 	return(0);
 }
 
