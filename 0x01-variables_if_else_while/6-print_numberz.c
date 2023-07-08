@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - putchar zero to ten
+ * main - putchar 0 to 10
  *
  * Return: Always 0 (Success)
  */
@@ -9,13 +9,12 @@
 
 int main (void)
 {
-	int i;
-	i = 0;
-	for (i=0; i<10; i++)
+
+	for (i = 48; i <= 57; i++)
 	{
-	putchar(i);
+	putchar (i);
 	}
-	putchar('\n');
+	putchar ('\n');
 	return(0);
 }
 
