@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *  small letters
+ * main -  small letters
  *
  * Return: Always 0 (Success)
  */
@@ -9,14 +9,14 @@
 
 int main(void)
 {
-        char s1[26] = "zyxwvutsrqponmlkjihgfedcba";
-        int i;
+	char s1[26] = "zyxwvutsrqponmlkjihgfedcba";
+	int i;
 
-        for (i = 0; i < 26; i++)
-        {
-        putchar (s1[i]);
-        }
-        putchar ('\n');
-        return (0);
+	for (i = 0; i < 26; i++)
+	{
+	putchar (s1[i]);
+	}
+	putchar ('\n');
+	return (0);
 }
 
