@@ -2,9 +2,8 @@
 
 /**
  * print_sign - print the signs
- *
- * Return: 1 and prints + if n is greater than zero, 
- * Return: 0 and prints 0 if n is zero, 
+ * Return: 1 and prints + if n is greater than zero
+ * Return: 0 and prints 0 if n is zero
  * Return: -1 and prints - if n is less than zero
  */
 
