@@ -10,10 +10,10 @@ void jack_bauer(void)
 	int k;
 	i = 0;
 
-	if (i < 24)
+	while (i < 24)
 	{
 	k = 0;
-	if (k < 60)
+	while (k < 60)
 	{
 	_putchar ((i / 10) + '0');
 	_putchar ((i % 10) + '0');
