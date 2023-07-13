@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * more_numbers
+ * more_numbers - print 1 to 14 10 times
  */
 
 void more_numbers(void)
 {
-	char i;
+	int i;
 	int j;
 
 	j = 0;
