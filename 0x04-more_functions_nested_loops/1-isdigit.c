@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- *Write a function that multiplies two integers
- *int mul(int a, int b)
- * Return: Always 0.
+ * _isdigit - check if its a digit
+ * @c: check number
+ *
+ * Return: 0 or 1
  */
 
 int _isdigit(int c)

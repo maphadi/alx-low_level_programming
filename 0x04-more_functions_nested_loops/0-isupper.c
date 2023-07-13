@@ -3,8 +3,7 @@
 /**
  * _isupper - check upper case
  * @c: check id upper case
- * Return:0
- * Return:1
+ * Return:0 || 1
  */
 
 int _isupper(int c)
