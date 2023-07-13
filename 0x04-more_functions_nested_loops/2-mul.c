@@ -2,6 +2,8 @@
 
 /**
  * mul - multipling a and b
+ * @a: a for mul
+ * @b: b for mul
  *
  * Return: Always 0.
  */
