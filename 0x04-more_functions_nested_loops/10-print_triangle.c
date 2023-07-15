@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- *triangle
+ * print_triangle - print reverse triangle
+ * @size: hwere # should be printed
  */
 
 void print_triangle(int size)
@@ -20,7 +21,7 @@ void print_triangle(int size)
 		{
 		_putchar(' ');
 		}
-		for(k = 1; k <= j; k++)
+		for (k = 1; k <= j; k++)
 		{
 		_putchar('#');
 		}
