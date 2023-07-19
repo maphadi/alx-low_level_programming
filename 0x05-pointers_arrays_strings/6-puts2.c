@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- *Write a function that reverses a string.
- *Prototype: void rev_string(char *s)
+ * puts2 - print in two's
+ * @str: pointer to printing string
  */
 
 void puts2(char *str)
 {
 	int length = 0;
 	int t = 0;
+	int i;
 	char *y = str;
-	int o;
 
 	while (*y != '\0')
 	{
@@ -18,11 +18,11 @@ void puts2(char *str)
 		length++;
 	}
 	t = length - 1;
-	for (o = 0 ; o <= t ; o++)
+	for (i = 0 ; i <= t ; i++)
 	{
-		if (o % 2 == 0)
+		if (i % 2 == 0)
 	{
-		_putchar(str[o]);
+		_putchar(str[i]);
 	}
 	}
 	_putchar('\n');
