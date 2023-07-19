@@ -1,8 +1,8 @@
 #include "main.h"
 
-/*
- * Write a function that prints a string, in reverse, followed by a new line.
- * Prototype: void print_rev(char *s);
+/**
+ * print_rev - reverse the sentence
+ * @s: pointer
  */
 
 void print_rev(char *s)
@@ -18,8 +18,8 @@ void print_rev(char *s)
 	s--;
 	for (i = length; n > 0; i--)
 	{
-		_putchar (*s);
-		s--;
+	_putchar (*s);
+	s--;
 	}
 	_putchar('\n');
 }
