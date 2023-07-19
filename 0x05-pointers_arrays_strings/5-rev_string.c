@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *Write a function that reverses a string.
- *Prototype: void rev_string(char *s)
+ * rev_string - using arrays to print
+ * @s: pointer
  */
 
 void rev_string(char *s)
