@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *
- *
- */ 
+ * puts_half - finally
+ * @str: knowledge
+ */
 
 void puts_half(char *str)
 {
@@ -18,23 +18,22 @@ void puts_half(char *str)
 	len++;
 	}
 	t = len - 1;
-	m = (t/2) + 1;
-	p = ((len +1)/2);
-	if (t %2 ==0)
+	m = (t / 2) + 1;
+	p = ((len + 1) / 2);
+	if (t % 2 == 0)
 	{
-		for (n = m; n <=t; n++)
+		for (n = m; n <= t; n++)
 		{
 		_putchar (str[n]);
 		}
 	}
 	else
-	{	
-				
-			for (j = p; j <=t; j++)
+	{
+			for (j = p; j <= t; j++)
 			{
-			_putchar(str[j]);
+			_putchar (str[j]);
 			}
 	}
-	_putchar('\n');
+	_putchar ('\n');
 }
 
